@@ -1,0 +1,44 @@
+body {
+    background-color: floralwhite!important;
+}
+.navbar span {
+    font-size: 20px;
+}
+
+.navbar i {
+    color: white;
+}
+
+.left-nav {
+    margin-top: 57px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.color-green {
+    color: green!important;
+}
+
+.nav-column {
+    width: 20%;
+    height: 500px;
+    overflow-y: scroll;
+}
+
+.nav-link {
+    border-style: double;
+}
+
+.nav-link:hover {
+    background-color: grey;
+}
+
+@media only screen and (max-width: 1246px) {
+    .nav-column {
+        height: 230px;
+        width: 100%;
+    }
+    .left-nav {
+        margin-bottom: 0;
+    }
+}

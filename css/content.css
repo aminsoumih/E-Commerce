@@ -1,0 +1,31 @@
+.main-content {
+    max-width: none!important;
+    margin-top: 70px;
+    width: 79%!important;
+}
+@media only screen and (max-width: 1246px) {
+    .main-content {
+        max-width: none!important;
+        width: 100%!important;
+        margin-top: 5px;
+    }
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+    -moz-appearance: textfield;
+}
+
+input[name="qty"] {
+    width: 35px;
+}
+
+.qty-wrapper {
+    display: block;
+}
